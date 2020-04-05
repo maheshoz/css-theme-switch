@@ -1,18 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css theme toggle</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Css theme toggle</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="stlyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-    <script defer src="app.js"></script>
+	<link rel="stylesheet" href="stlyle.css">
+
+	<script defer src="app.js"></script>
 
 </head>
-<body>
-    
+
+<body class="light">
+
+	<!-- Navbar -->
+	<nav class="navbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">Home</li>
+			<li class="nav-item">About</li>
+
+			<!-- A Dropdown-->
+			<li class="nav-item has-dropdown">
+				<a href="#">Theme</a>
+				<ul class="dropdown">
+					<li class="dropdown-item">
+						<a href="#" id="light">light</a>
+					</li>
+					<li class="dropdown-item">
+						<a href="#" id="dark">dark</a>
+					</li>
+					<li class="dropdown-item">
+						<a href="#" id="solar">solarize</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="nav-item">Login</li>
+		</ul>
+	</nav>
+
+	<header>
+		<img src="logo.png" alt="header image" class="logo">
+		<h1>Front-End Web Development, <br>is Awesome</br> </h1>
+
+		<p>Javascript, CSS, Node.js, Flutter, UI design</p>
+
+	</header>
+
+	<main>
+		<h3>lorem ipsum</h3>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex eligendi perferendis laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, sequi? </p>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam iusto fuga corrupti repellat incidunt ipsum nobis deserunt dolore!</p>
+		
+		
+		<h3>lorem ipsum</h3>
+
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla natus ut non nemo placeat. Cumque, non facilis repellat tempore debitis quaerat, eligendi perferendis nesciunt maiores, aliquid voluptatem harum quasi. Sequi?</p>
+
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo necessitatibus pariatur nemo.</p>
+	</main>
+
 </body>
+
 </html>
